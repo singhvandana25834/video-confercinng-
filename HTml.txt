@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Video Conferencing</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="video-container">
+    <video id="localVideo" autoplay muted></video>
+    <video id="remoteVideo" autoplay></video>
+    <img id="imagePlaceholder" src="" alt="Image">
+  </div>
+  <div class="controls">
+    <button id="startCallButton">Start Call</button>
+    <button id="endCallButton">End Call</button>
+  </div>
+  <footer>
+    <p>&copy; 2023 Video Conferencing App</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
